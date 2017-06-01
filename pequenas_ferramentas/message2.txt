@@ -1,0 +1,6 @@
+BUY, 2, 
+SIX, 4, 
+EGGS, 6, 
+AND, 8, 
+SOME, 10, 
+MILK, 12, 
