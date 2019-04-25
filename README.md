@@ -10,6 +10,8 @@
 
 `gcc -o a.out 'program_name'.c && ./a.out` generates and run 'a.out' at same time.
 
+NOTE: for link libraries use `gcc -o a.out 'program_name'.c -lm && ./a.out`
+
 
 #### Run on Visual Studio Code:
 
