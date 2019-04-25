@@ -6,7 +6,7 @@
             "type": "shell",
             "command": "gcc",
             "args": [
-                "-o","a.out","${fileBasename}","&&","./a.out"
+                "-o","a.out","${fileDirname}/${fileBasename}","-lm","&&","./a.out"
             ],
             "group": {
                 "kind": "build",
