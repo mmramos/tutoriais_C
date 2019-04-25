@@ -52,7 +52,9 @@ where `"command": "gcc",` indicates the compiler and `"-o","a.out","${fileBasena
 
 `${fileBasename}` allows the usage of any .c file when executed. 
 
-to execute the program on Visual Studio Code go to Terminal > Run Build Task...
+to execute the program on Visual Studio Code go to:
+
+> Terminal > Run Build Task...
 
 ________________________________________________________________________________________________________
 
