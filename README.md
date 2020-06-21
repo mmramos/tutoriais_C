@@ -1,6 +1,40 @@
 # Tutorial C language
 ## Standard information (based on Head First - C by David Griffiths and Dawn Griffiths)
 
+#### Install - linux:
+
+`$ sudo apt install build-essential` -> install essential components like gcc, g++, etc.
+
+`$ gcc --version` -> to validate that the GCC compiler is successfully installed.
+
+#### Install - Windows:
+
+Download MinGW at [MinGW source forge](https://sourceforge.net/projects/mingw/files/)
+
+Install .exe file
+
+after installation go to installation folder and copy the path (usually `C:\MinGW\bin`)
+
+go to windows **control panel > system > advaced system settings > Environment variables >**
+
+than search for path in system variables pannel
+
+edit this by clicking in **edit...** and then **New** buttons. 
+
+add the path to MinGW compiler (usually `C:\MinGW\bin`)
+
+then **ok** > **ok** > **ok**.
+
+you can test this installation on windows prompt by `$ gcc --version`.
+________________________________________________________________________________________________________
+
+#### Basic run - Windows:
+
+`gcc -o a.exe 'program_name'.c` generates 'a.exe' running program by gcc compiler.
+
+`a.exe` run 'a.exe' executable.
+
+`gcc -o a.exe 'program_name'.c && a.exe` generates and run 'a.exe' at same time.
 
 #### Basic run - linux:
 
